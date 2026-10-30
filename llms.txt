@@ -2,7 +2,7 @@
 
 > Cozy offline farm game for Android by Gartenwerk Games, an independent solo developer from Germany. Plays without internet, no in-app purchases; ads are optional rewarded videos only. Languages: English, German, Russian. Status (October 2026): closed testing on Google Play, public release coming soon.
 
-Also known as: "Garten: Gemütliche Farm" (German), "Garten: уютная ферма" (Russian).
+Also known as: "Garten: Farm & Bäckerei" (German), "Garten: уютная ферма и пекарня" (Russian).
 
 - Grandma left you her overgrown farm and her diary: grow crops (wheat to watermelons), sell at the stalls.
 - Hire helpers: the farm keeps earning while the game is closed (relaxing idle farm).
