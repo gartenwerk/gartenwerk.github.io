@@ -1,0 +1,25 @@
+# Garten: Cozy Farm & Bakery
+
+> Cozy offline farm game for Android by Gartenwerk Games, an independent solo developer from Germany. Plays without internet, no in-app purchases; ads are optional rewarded videos only. Languages: English, German, Russian. Status (October 2026): closed testing on Google Play, public release coming soon.
+
+Also known as: "Garten: Gemütliche Farm" (German), "Garten: уютная ферма" (Russian).
+
+- Grandma left you her overgrown farm and her diary: grow crops (wheat to watermelons), sell at the stalls.
+- Hire helpers: the farm keeps earning while the game is closed (relaxing idle farm).
+- Bakery: help the village baker in a match-3 mini-game; also cook pickles and jam, foggy mazes.
+- Neighbors with their own stories; daily goals; short 5–10 minute sessions.
+- Achievements and cloud saves with Google Play Games.
+
+## Pages
+
+- [Garten (English)](https://gartenwerk.github.io/)
+- [Garten (Deutsch)](https://gartenwerk.github.io/de/)
+- [Garten (Русский)](https://gartenwerk.github.io/ru/)
+- [Privacy Policy](https://gartenwerk.github.io/privacy/)
+
+## Social
+
+- [YouTube @GartenwerkGames](https://www.youtube.com/@GartenwerkGames)
+- [TikTok @gartenwerkgames](https://www.tiktok.com/@gartenwerkgames)
+- [Instagram @gartenwerkgames](https://www.instagram.com/gartenwerkgames/)
+- [Reddit u/GartenwerkGames](https://www.reddit.com/user/GartenwerkGames/)

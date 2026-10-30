@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://gartenwerk.github.io/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gartenwerk.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gartenwerk.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gartenwerk.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gartenwerk.github.io/"/>
+  </url>
+  <url>
+    <loc>https://gartenwerk.github.io/de/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gartenwerk.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gartenwerk.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gartenwerk.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gartenwerk.github.io/"/>
+  </url>
+  <url>
+    <loc>https://gartenwerk.github.io/ru/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gartenwerk.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gartenwerk.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gartenwerk.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gartenwerk.github.io/"/>
+  </url>
+  <url>
+    <loc>https://gartenwerk.github.io/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+</urlset>
