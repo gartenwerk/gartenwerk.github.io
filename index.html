@@ -113,6 +113,14 @@
         "ru"
       ],
       "isAccessibleForFree": true,
+      "installUrl": "https://play.google.com/store/apps/details?id=com.gartenwerk.garten",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://play.google.com/store/apps/details?id=com.gartenwerk.garten"
+      },
       "author": {
         "@id": "https://gartenwerk.github.io/#org"
       },
@@ -144,6 +152,10 @@
   .shots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
   .shots img { border-radius: 8px; }
   @media (max-width: 560px) { .shots { grid-template-columns: repeat(2, 1fr); } }
+  .play { margin: 1.2em 0; }
+  .play-btn { display: inline-block; padding: .7em 1.3em; border-radius: 999px; background: var(--accent);
+    color: var(--bg); font-weight: bold; text-decoration: none; }
+  .play-btn:hover, .play-btn:focus { opacity: .9; text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -153,9 +165,7 @@
 <h1>Garten: Cozy Farm & Bakery</h1>
 <img class="hero" src="img/hero.webp" width="1024" height="500" alt="Garten: the farmer girl with a basket of vegetables, the baker, his wife, a dog and a chicken in front of a farmhouse">
 <p><b>Garten: Cozy Farm &amp; Bakery</b> is a cozy offline farm game for Android. Grandma has moved to the sea and left you her overgrown farm: grow crops, help the village baker, cook pickles and jam, and hire helpers who keep the farm running while you rest. It plays without internet, has no in-app purchases, and ads are only optional reward videos.</p>
-<!-- Google Play: когда игра выйдет в открытый доступ, заменить строку ниже ссылкой
-     https://play.google.com/store/apps/details?id=com.gartenwerk.garten -->
-<p><b>Coming soon to Google Play. The game is in closed testing right now.</b></p>
+<p class="play"><a class="play-btn" href="https://play.google.com/store/apps/details?id=com.gartenwerk.garten">Get it on Google Play</a> · free, no in-app purchases</p>
 <h2>What you do in Garten</h2>
 <ul>
   <li>Plant, water and harvest — from wheat to watermelons — and carry your goods to the stalls.</li>

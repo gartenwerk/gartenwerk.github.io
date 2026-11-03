@@ -113,6 +113,14 @@
         "ru"
       ],
       "isAccessibleForFree": true,
+      "installUrl": "https://play.google.com/store/apps/details?id=com.gartenwerk.garten&hl=de",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://play.google.com/store/apps/details?id=com.gartenwerk.garten&hl=de"
+      },
       "author": {
         "@id": "https://gartenwerk.github.io/#org"
       },
@@ -144,6 +152,10 @@
   .shots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
   .shots img { border-radius: 8px; }
   @media (max-width: 560px) { .shots { grid-template-columns: repeat(2, 1fr); } }
+  .play { margin: 1.2em 0; }
+  .play-btn { display: inline-block; padding: .7em 1.3em; border-radius: 999px; background: var(--accent);
+    color: var(--bg); font-weight: bold; text-decoration: none; }
+  .play-btn:hover, .play-btn:focus { opacity: .9; text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -153,9 +165,7 @@
 <h1>Garten: Farm & Bäckerei</h1>
 <img class="hero" src="../img/hero.webp" width="1024" height="500" alt="Garten: das Bauernmädchen mit einem Gemüsekorb, der Bäcker, seine Frau, ein Hund und ein Huhn vor dem Bauernhaus">
 <p><b>Garten: Farm & Bäckerei</b> ist ein gemütliches Farmspiel mit Bäckerei fürs Handy (Android). Oma ist ans Meer gezogen und hat dir ihren verwilderten Hof hinterlassen: Ernte anbauen, dem Bäcker helfen, Eingelegtes und Marmelade kochen und Helfer anstellen, die den Hof am Laufen halten, während du ruhst. Offline spielbar, ohne Internet, keine In-App-Käufe – Werbung nur als freiwillige Belohnungsvideos.</p>
-<!-- Google Play: когда игра выйдет в открытый доступ, заменить строку ниже ссылкой
-     https://play.google.com/store/apps/details?id=com.gartenwerk.garten -->
-<p><b>Bald bei Google Play. Das Spiel ist gerade im geschlossenen Test.</b></p>
+<p class="play"><a class="play-btn" href="https://play.google.com/store/apps/details?id=com.gartenwerk.garten&amp;hl=de">Jetzt bei Google Play</a> · kostenlos, ohne In-App-Käufe</p>
 <h2>Was du in Garten machst</h2>
 <ul>
   <li>Pflanzen, gießen, ernten – vom Weizen bis zur Wassermelone – und die Ernte an die Stände bringen.</li>

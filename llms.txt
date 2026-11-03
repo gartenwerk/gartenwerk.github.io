@@ -1,6 +1,6 @@
 # Garten: Cozy Farm & Bakery
 
-> Cozy offline farm game for Android by Gartenwerk Games, an independent solo developer from Germany. Plays without internet, no in-app purchases; ads are optional rewarded videos only. Languages: English, German, Russian. Status (October 2026): closed testing on Google Play, public release coming soon.
+> Cozy offline farm game for Android by Gartenwerk Games, an independent solo developer from Germany. Plays without internet, no in-app purchases; ads are optional rewarded videos only. Languages: English, German, Russian. Status: released on Google Play (November 2026): https://play.google.com/store/apps/details?id=com.gartenwerk.garten
 
 Also known as: "Garten: Farm & Bäckerei" (German), "Garten: уютная ферма и пекарня" (Russian).
 

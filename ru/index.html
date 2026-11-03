@@ -113,6 +113,14 @@
         "ru"
       ],
       "isAccessibleForFree": true,
+      "installUrl": "https://play.google.com/store/apps/details?id=com.gartenwerk.garten&hl=ru",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://play.google.com/store/apps/details?id=com.gartenwerk.garten&hl=ru"
+      },
       "author": {
         "@id": "https://gartenwerk.github.io/#org"
       },
@@ -144,6 +152,10 @@
   .shots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
   .shots img { border-radius: 8px; }
   @media (max-width: 560px) { .shots { grid-template-columns: repeat(2, 1fr); } }
+  .play { margin: 1.2em 0; }
+  .play-btn { display: inline-block; padding: .7em 1.3em; border-radius: 999px; background: var(--accent);
+    color: var(--bg); font-weight: bold; text-decoration: none; }
+  .play-btn:hover, .play-btn:focus { opacity: .9; text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -153,9 +165,7 @@
 <h1>Garten: уютная ферма и пекарня</h1>
 <img class="hero" src="../img/hero.webp" width="1024" height="500" alt="Garten: девушка-фермер с корзиной овощей, пекарь с женой, собака и курица у фермерского дома">
 <p><b>Garten: уютная ферма и пекарня</b> — спокойная игра про ферму с пекарней для Android. Бабушка переехала к морю и оставила тебе заросшую ферму: сажай и собирай урожай, помогай пекарю, вари соленья и варенье и нанимай помощников — ферма работает, пока ты отдыхаешь. Играется без интернета, без доната: покупок в игре нет, реклама — только ролики за награду по желанию.</p>
-<!-- Google Play: когда игра выйдет в открытый доступ, заменить строку ниже ссылкой
-     https://play.google.com/store/apps/details?id=com.gartenwerk.garten -->
-<p><b>Скоро в Google Play. Сейчас идёт закрытое тестирование.</b></p>
+<p class="play"><a class="play-btn" href="https://play.google.com/store/apps/details?id=com.gartenwerk.garten&amp;hl=ru">Скачать в Google Play</a> · бесплатно, без покупок в игре</p>
 <h2>Что делать в Garten</h2>
 <ul>
   <li>Сажай, поливай и собирай урожай — от пшеницы до арбузов — и неси товар на кассы.</li>
