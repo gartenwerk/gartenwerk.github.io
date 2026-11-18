@@ -41,13 +41,14 @@ Contact: <a href="mailto:gartenwerk.games@gmail.com">gartenwerk.games@gmail.com<
 Google Play Games, a copy of your progress is kept in your Play Games account (section 5a). The Game shows optional
 rewarded video ads from Google AdMob (you choose to watch a video for a bonus) and, for players aged 16 or older,
 uses GameAnalytics to count how many players come back to the Game. These services receive some technical data
-from your device, as described in sections 6 and 7. The Game also works without an internet connection.</p>
+from your device, as described in sections 6 and 7; crash reports are described in section 7a. The Game also works without an internet connection.</p>
 
 <h2>2. Data stored on your device</h2>
-<p>Your game progress and settings (for example language, sound volume and the year of birth you enter at the first
-start) are saved on your device and, if you are signed in to Google Play Games, as a copy in your Play Games account
-(section 5a). We have no access to them. You can delete them at any time with “Reset
-progress” in the Game settings or by uninstalling the Game.</p>
+<p>Your game progress, the name you give your character, the year of birth you enter at the first start and your
+settings (for example language and sound volume) are saved on your device; your save (progress, name and year of birth)
+is also kept as a copy in your Play Games account if you are signed in to Google Play Games (section 5a). We have no
+access to them. “Reset progress” in the Game settings deletes the save and all its copies on your device at once (the
+settings stay until you uninstall the Game); uninstalling the Game deletes everything on your device.</p>
 
 <h2>3. Android backup</h2>
 <p>If backup is turned on in your device settings, Android may automatically copy the Game’s saved progress
@@ -62,17 +63,19 @@ We may see this information only in aggregated form or as anonymous crash report
 and use it to fix errors and improve the Game.</p>
 
 <h2>5. Permissions</h2>
-<p>The Game uses these permissions: vibration (haptic feedback); internet (ads, analytics, Google Play Games and asking a Google server
+<p>The Game uses these permissions: vibration (haptic feedback); internet (ads, analytics, Google Play Games, crash reports and asking a Google server
 for the current time so that changing the device clock does not affect in-game timers); notifications (the Game
-reminds you about the piggy bank, letters and new daily tasks – at most twice a day and never at night; you can turn
-them off in the Game settings or in your phone settings; notifications are created on your device and send nothing);
-and the advertising ID permission, which is added by the Google Mobile Ads SDK. The Game does not access your contacts,
+reminds you about the piggy bank, letters, new daily tasks and the weekly fair – at most twice a day and never at
+night; you can turn them off in the Game settings or in your phone settings; notifications are created on your device
+and send nothing); starting after reboot and briefly keeping the device awake (so that reminders come back after the
+phone restarts); and permissions added by the Google Mobile Ads SDK and its libraries: advertising ID, network state,
+basic phone state and a foreground service. The Game does not access your contacts,
 location (GPS), camera, microphone, photos or files.</p>
 
 <h2>5a. Google Play Games</h2>
 <p>If you are signed in to Google Play Games on your phone, the Game signs in to it automatically (no extra window) and
 uses these Google services:<br>
-– <b>Saved Games</b>: a copy of your progress (your farm and the time it was saved) is kept in your Play Games account so
+– <b>Saved Games</b>: a copy of your whole save file (your farm, your character’s name, your year of birth and the time it was saved) is kept in your Play Games account so
 you can continue on another phone. The Game reads and writes only its own save;<br>
 – <b>Achievements and leaderboards</b>: which achievements you have unlocked and your best scores (for example in
 “Catch the Eggs”). Your scores and your Play Games nickname are visible to other players in the leaderboards – this is
@@ -87,8 +90,9 @@ Google AdMob. To show ads, measure them and prevent fraud, Google may collect yo
 (approximate location), device identifiers including the advertising ID, and information about ad views and taps,
 as well as crash and performance data of the ads SDK. See
 <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
-<p><b>Year of birth.</b> At the first start the Game asks for your year of birth. It is stored only on your device and
-never sent anywhere. If you are under 16, the Game asks Google for non-personalized ads only, marks the requests
+<p><b>Year of birth.</b> At the first start the Game asks for your year of birth. It is stored on your device and, if you
+are signed in to Google Play Games, inside the copy of your save in your Play Games account (section 5a). It is never
+sent to us, to advertisers or to analytics. If you are under 16 (or, judging by your year of birth, may still be under 16), the Game asks Google for non-personalized ads only, marks the requests
 as coming from a user under the age of consent and limits ads to content suitable for that age; no consent form is
 shown and no analytics are collected.</p>
 <p><b>Consent.</b> If you are 16 or older and live where consent is required (for example the EU/EEA and the UK),
@@ -98,10 +102,12 @@ settings under “Privacy settings”. If you do not agree, you may still see no
 <h2>7. Analytics (GameAnalytics)</h2>
 <p>For players aged 16 or older, and only with consent where consent is required, the Game uses
 <b>GameAnalytics</b> to learn how many players come back to the Game and how far they get. It sends a random
-identifier created by GameAnalytics and the Android App Set ID (not the advertising ID), the start and end of game
-sessions, a few progress milestones (for example “tutorial finished”, “new zone opened”, “match-3 level won”),
-whether an optional rewarded ad was offered, started or watched to the end, and device information (model, Android version, Game version, connection type). GameAnalytics may use the IP address
-to determine the country. No names, emails, game progress or advertising ID are sent. GameAnalytics processes this
+identifier created by GameAnalytics and the Android App Set ID (not the advertising ID), the start, end and length of
+game sessions, the day number since you first started the Game, progress milestones (tutorial steps, a new zone, the
+barn or lake opened, the number of fields, daily goals completed, a match-3 level opened or won), technical events (a
+part of the Game did not load in time, the save file was changed outside the Game), whether an optional rewarded ad
+was offered, started or watched to the end and in which place in the Game, and device information (model, Android version, Game version, connection type). GameAnalytics may use the IP address
+to determine the country. No names, emails, your save file or advertising ID are sent. GameAnalytics processes this
 data on our behalf; see the <a href="https://gameanalytics.com/privacy">GameAnalytics Privacy Policy</a>.
 You can turn analytics off by withdrawing consent in the Game settings under “Privacy settings” (where available) or by
 writing to us.</p>
@@ -129,8 +135,8 @@ complain to a data protection supervisory authority. Data held by Google and Gam
 request; write to us and we will forward the request. You can also reset your advertising ID in your phone settings.</p>
 
 <h2 id="delete">11. How to delete your data</h2>
-<p>1. <b>Data on your device</b> (progress, settings, year of birth): tap “Reset progress” in the Game settings or
-uninstall the Game. It is deleted immediately.<br>
+<p>1. <b>Data on your device</b> (progress, character name, year of birth): tap “Reset progress” in the Game settings –
+the save and all its copies are deleted immediately; uninstalling the Game also deletes the settings.<br>
 2. <b>Analytics and ads</b>: withdraw consent in the Game settings under “Privacy settings” (where available) – no new
 data is sent after that. You can also reset or delete the advertising ID in your phone settings (Google → Ads).<br>
 3. <b>Data held by GameAnalytics or Google</b>: email <a href="mailto:gartenwerk.games@gmail.com">gartenwerk.games@gmail.com</a>
@@ -158,14 +164,16 @@ Spielstand. Wenn du bei Google Play Spiele angemeldet bist, liegt eine Kopie dei
 Play-Spiele-Konto (Abschnitt 5a).
 Das Spiel zeigt freiwillige Belohnungsvideos von Google AdMob (du entscheidest selbst, ein Video für einen Bonus
 anzusehen) und nutzt für Spieler ab 16 Jahren GameAnalytics, um zu zählen, wie viele Spieler wiederkommen. Diese
-Dienste erhalten einige technische Daten deines Geräts, wie in den Abschnitten 6 und 7 beschrieben. Das Spiel
-funktioniert auch ohne Internetverbindung.</p>
+Dienste erhalten einige technische Daten deines Geräts, wie in den Abschnitten 6 und 7 beschrieben; Absturzberichte
+beschreibt Abschnitt 7a. Das Spiel funktioniert auch ohne Internetverbindung.</p>
 
 <h2>2. Daten auf deinem Gerät</h2>
-<p>Dein Spielfortschritt und deine Einstellungen (z. B. Sprache, Lautstärke und das Geburtsjahr, das du beim ersten
-Start eingibst) werden auf deinem Gerät gespeichert und, wenn du bei Google Play Spiele angemeldet bist, als Kopie in
-deinem Play-Spiele-Konto (Abschnitt 5a). Wir haben keinen Zugriff darauf. Du kannst sie jederzeit mit
-„Fortschritt zurücksetzen“ in den Einstellungen des Spiels oder durch Deinstallieren des Spiels löschen.</p>
+<p>Dein Spielfortschritt, der Name deiner Spielfigur, das Geburtsjahr, das du beim ersten Start eingibst, und deine
+Einstellungen (z. B. Sprache und Lautstärke) werden auf deinem Gerät gespeichert; dein Spielstand (Fortschritt, Name und
+Geburtsjahr) liegt außerdem als Kopie in deinem Play-Spiele-Konto, wenn du bei Google Play Spiele angemeldet bist
+(Abschnitt 5a). Wir haben keinen Zugriff darauf. „Fortschritt zurücksetzen“ in den Einstellungen des Spiels löscht den
+Spielstand und alle seine Kopien auf deinem Gerät sofort (die Einstellungen bleiben bis zur Deinstallation); das
+Deinstallieren des Spiels löscht alles auf deinem Gerät.</p>
 
 <h2>3. Android-Sicherung</h2>
 <p>Wenn die Sicherung in deinen Geräteeinstellungen aktiviert ist, kann Android den gespeicherten Spielstand
@@ -181,17 +189,19 @@ Wir sehen diese Informationen nur zusammengefasst oder als anonyme Absturzberich
 und nutzen sie, um Fehler zu beheben und das Spiel zu verbessern.</p>
 
 <h2>5. Berechtigungen</h2>
-<p>Das Spiel nutzt diese Berechtigungen: Vibration (haptisches Feedback); Internet (Werbung, Analyse, Google Play Spiele und die Abfrage
+<p>Das Spiel nutzt diese Berechtigungen: Vibration (haptisches Feedback); Internet (Werbung, Analyse, Google Play Spiele, Absturzberichte und die Abfrage
 der aktuellen Uhrzeit bei einem Google-Server, damit das Verstellen der Geräteuhr die Timer im Spiel nicht
-beeinflusst); Benachrichtigungen (das Spiel erinnert an das Sparschwein, Briefe und neue Tagesaufgaben – höchstens
-zweimal am Tag und nie nachts; abschaltbar in den Einstellungen des Spiels oder des Telefons; sie entstehen auf dem
-Gerät und senden nichts); sowie die Berechtigung für die Werbe-ID, die das Google Mobile Ads SDK hinzufügt. Das Spiel
+beeinflusst); Benachrichtigungen (das Spiel erinnert an das Sparschwein, Briefe, neue Tagesaufgaben und den
+Wochenmarkt – höchstens zweimal am Tag und nie nachts; abschaltbar in den Einstellungen des Spiels oder des Telefons;
+sie entstehen auf dem Gerät und senden nichts); Start nach dem Neustart und kurzes Wachhalten des Geräts (damit
+Erinnerungen nach einem Neustart des Telefons wiederkommen); sowie Berechtigungen, die das Google Mobile Ads SDK und
+seine Bibliotheken hinzufügen: Werbe-ID, Netzwerkstatus, grundlegender Telefonstatus und ein Vordergrunddienst. Das Spiel
 greift nicht auf Kontakte, Standort (GPS), Kamera, Mikrofon, Fotos oder Dateien zu.</p>
 
 <h2>5a. Google Play Spiele</h2>
 <p>Wenn du auf deinem Telefon bei Google Play Spiele angemeldet bist, meldet sich das Spiel automatisch an (ohne
 zusätzliches Fenster) und nutzt diese Dienste von Google:<br>
-– <b>Gespeicherte Spiele</b>: eine Kopie deines Fortschritts (dein Hof und der Zeitpunkt des Speicherns) liegt in deinem
+– <b>Gespeicherte Spiele</b>: eine Kopie deines gesamten Spielstands (dein Hof, der Name deiner Spielfigur, dein Geburtsjahr und der Zeitpunkt des Speicherns) liegt in deinem
 Play-Spiele-Konto, damit du auf einem anderen Telefon weiterspielen kannst. Das Spiel liest und schreibt nur seinen
 eigenen Spielstand;<br>
 – <b>Erfolge und Bestenlisten</b>: welche Erfolge du freigeschaltet hast und deine Bestwerte (z. B. bei „Fang die
@@ -207,8 +217,10 @@ stammt von Google AdMob. Um Werbung anzuzeigen, zu messen und Betrug zu verhinde
 Geräts (ungefährer Standort), Gerätekennungen einschließlich der Werbe-ID sowie Informationen zu Anzeigenaufrufen und
 Tippen erheben, außerdem Absturz- und Leistungsdaten des Werbe-SDK. Siehe
 <a href="https://policies.google.com/technologies/partner-sites?hl=de">Wie Google Daten von Websites und Apps von Partnern verwendet</a>.</p>
-<p><b>Geburtsjahr.</b> Beim ersten Start fragt das Spiel nach deinem Geburtsjahr. Es wird nur auf deinem Gerät
-gespeichert und nirgendwohin gesendet. Bist du jünger als 16, fordert das Spiel bei Google nur nicht personalisierte
+<p><b>Geburtsjahr.</b> Beim ersten Start fragt das Spiel nach deinem Geburtsjahr. Es wird auf deinem Gerät
+gespeichert und, wenn du bei Google Play Spiele angemeldet bist, in der Kopie deines Spielstands in deinem
+Play-Spiele-Konto (Abschnitt 5a). Es wird nie an uns, an Werbetreibende oder an die Analyse gesendet. Bist du jünger
+als 16 (oder könntest du nach deinem Geburtsjahr noch jünger als 16 sein), fordert das Spiel bei Google nur nicht personalisierte
 Werbung an, kennzeichnet die Anfragen als von einem Nutzer unter dem Einwilligungsalter und begrenzt die Werbung auf
 altersgerechte Inhalte; es wird kein Einwilligungsfenster gezeigt und es findet keine Analyse statt.</p>
 <p><b>Einwilligung.</b> Bist du 16 oder älter und lebst dort, wo eine Einwilligung nötig ist (z. B. EU/EWR und
@@ -219,11 +231,14 @@ nicht personalisierte Werbung sehen.</p>
 <h2>7. Analyse (GameAnalytics)</h2>
 <p>Für Spieler ab 16 Jahren und, wo nötig, nur mit Einwilligung nutzt das Spiel <b>GameAnalytics</b>, um zu erfahren,
 wie viele Spieler wiederkommen und wie weit sie kommen. Gesendet werden eine zufällige Kennung von GameAnalytics und die
-Android App Set ID (nicht die Werbe-ID), Beginn und Ende von Spielsitzungen, einige Fortschrittsmarken (z. B.
-„Tutorial beendet“, „neue Zone geöffnet“, „Match-3-Level gewonnen“), ob eine freiwillige Belohnungswerbung
-angeboten, gestartet oder bis zum Ende angesehen wurde, und Geräteinformationen (Modell, Android-Version,
+Android App Set ID (nicht die Werbe-ID), Beginn, Ende und Dauer von Spielsitzungen, der wievielte Tag
+seit dem ersten Start es ist, Fortschrittsmarken (Tutorial-Schritte, neue Zone, Stall oder See geöffnet, Anzahl der
+Felder, erfüllte Tagesziele, Match-3-Level geöffnet oder gewonnen), technische Ereignisse (ein Teil des Spiels wurde
+nicht rechtzeitig geladen, die Speicherdatei wurde außerhalb des Spiels verändert), ob eine freiwillige
+Belohnungswerbung angeboten, gestartet oder bis zum Ende angesehen wurde und an welcher Stelle im Spiel, und
+Geräteinformationen (Modell, Android-Version,
 Spielversion, Verbindungsart). GameAnalytics kann die IP-Adresse nutzen, um das Land zu bestimmen. Namen, E-Mails,
-Spielstand oder Werbe-ID werden nicht gesendet. GameAnalytics verarbeitet diese Daten in unserem Auftrag; siehe die
+deine Speicherdatei oder die Werbe-ID werden nicht gesendet. GameAnalytics verarbeitet diese Daten in unserem Auftrag; siehe die
 <a href="https://gameanalytics.com/privacy">Datenschutzerklärung von GameAnalytics</a>. Du kannst die Analyse
 abschalten, indem du die Einwilligung in den Einstellungen des Spiels unter „Datenschutzeinstellungen“ widerrufst (wo verfügbar)
 oder uns schreibst.</p>
@@ -253,8 +268,9 @@ GameAnalytics können auf Anfrage gelöscht werden; schreib uns, und wir leiten 
 du außerdem in den Einstellungen deines Telefons zurücksetzen.</p>
 
 <h2 id="loeschen">11. So löschst du deine Daten</h2>
-<p>1. <b>Daten auf deinem Gerät</b> (Fortschritt, Einstellungen, Geburtsjahr): tippe in den Einstellungen des Spiels
-auf „Fortschritt zurücksetzen“ oder deinstalliere das Spiel. Sie werden sofort gelöscht.<br>
+<p>1. <b>Daten auf deinem Gerät</b> (Fortschritt, Name der Spielfigur, Geburtsjahr): tippe in den Einstellungen des Spiels
+auf „Fortschritt zurücksetzen“ – der Spielstand und alle seine Kopien werden sofort gelöscht; beim Deinstallieren des
+Spiels werden auch die Einstellungen gelöscht.<br>
 2. <b>Analyse und Werbung</b>: widerrufe die Einwilligung in den Einstellungen des Spiels unter
 „Datenschutzeinstellungen“ (wo verfügbar) – danach werden keine neuen Daten gesendet. Die Werbe-ID kannst du in den
 Einstellungen deines Telefons zurücksetzen oder löschen (Google → Anzeigen).<br>
@@ -284,13 +300,14 @@ das Datum.</p>
 Игры, копия прогресса хранится в вашем аккаунте Play Игр (раздел 5а). Игра показывает рекламу
 Google AdMob только за награду: вы сами решаете посмотреть ролик ради бонуса. Для игроков от 16 лет Игра использует
 GameAnalytics, чтобы считать, сколько игроков возвращается. Эти сервисы получают некоторые технические данные
-устройства, они описаны в разделах 6 и 7. Игра работает и без интернета.</p>
+устройства, они описаны в разделах 6 и 7; отчёты о сбоях — в разделе 7а. Игра работает и без интернета.</p>
 
 <h2>2. Данные на вашем устройстве</h2>
-<p>Прогресс и настройки Игры (например, язык, громкость и год рождения, который вы вводите при первом запуске)
-сохраняются на вашем устройстве и, если вы вошли в Google Play Игры, копией в вашем аккаунте Play Игр (раздел 5а).
-У нас нет к ним доступа. Удалить их можно в любой момент кнопкой «Сбросить
-прогресс» в настройках Игры или удалив Игру.</p>
+<p>Прогресс Игры, имя, которое вы даёте героине, год рождения, который вы вводите при первом запуске, и настройки
+(например, язык и громкость) сохраняются на вашем устройстве; сохранение (прогресс, имя и год рождения), если вы вошли
+в Google Play Игры, хранится ещё и копией в вашем аккаунте Play Игр (раздел 5а). У нас нет к ним доступа. Кнопка
+«Сбросить прогресс» в настройках Игры сразу удаляет сохранение и все его копии на устройстве (настройки остаются до
+удаления Игры); удаление Игры стирает с устройства всё.</p>
 
 <h2>3. Резервное копирование Android</h2>
 <p>Если в настройках устройства включено резервное копирование, Android может автоматически сохранять прогресс
@@ -307,17 +324,20 @@ GameAnalytics, чтобы считать, сколько игроков возв
 <h2>5. Разрешения</h2>
 <p>Игра использует разрешения:
 <br>вибрация — отклик при действиях;
-<br>интернет — реклама, аналитика, Google Play Игры и текущее время с сервера Google (чтобы перевод часов на устройстве не влиял
+<br>интернет — реклама, аналитика, Google Play Игры, отчёты о сбоях и текущее время с сервера Google (чтобы перевод часов на устройстве не влиял
 на таймеры в игре);
-<br>уведомления — Игра напоминает о копилке, письмах и новых заданиях дня, не чаще двух раз в день и никогда ночью.
+<br>уведомления — Игра напоминает о копилке, письмах, новых заданиях дня и еженедельной ярмарке, не чаще двух раз в день и никогда ночью.
 Уведомления создаются на самом устройстве и ничего не отправляют, выключить их можно в настройках Игры или телефона;
-<br>рекламный идентификатор — это разрешение добавляет Google Mobile Ads SDK.
+<br>запуск после перезагрузки и недолгое удержание устройства от сна — чтобы напоминания вернулись после
+перезагрузки телефона;
+<br>рекламный идентификатор, состояние сети, базовое состояние телефона и фоновая служба — эти разрешения добавляют
+Google Mobile Ads SDK и его библиотеки.
 <br>Игра не обращается к контактам, местоположению (GPS), камере, микрофону, фото и файлам.</p>
 
 <h2>5а. Google Play Игры</h2>
 <p>Если на телефоне вы вошли в Google Play Игры, Игра сама входит в них (без отдельного окна) и использует сервисы
 Google:<br>
-– <b>Сохранённые игры</b>: копия прогресса (ваша ферма и время сохранения) хранится в вашем аккаунте Play Игр, чтобы
+– <b>Сохранённые игры</b>: копия всего сохранения (ваша ферма, имя героини, год рождения и время сохранения) хранится в вашем аккаунте Play Игр, чтобы
 продолжить игру на другом телефоне. Игра читает и пишет только свою запись;<br>
 – <b>Достижения и таблицы рекордов</b>: какие достижения получены и ваши лучшие результаты (например, в «Лови яйца»).
 Результаты и ваш псевдоним Play Игр видны другим игрокам в таблицах — так устроены Play Игры; кто видит ваш профиль,
@@ -332,8 +352,9 @@ Google AdMob. Чтобы показывать и учитывать реклам
 устройства (примерное местоположение), идентификаторы устройства, в том числе рекламный идентификатор, сведения
 о показах рекламы и нажатиях на неё, а также данные о сбоях и работе рекламного SDK. Подробнее:
 <a href="https://policies.google.com/technologies/partner-sites?hl=ru">Как Google использует данные сайтов и приложений-партнёров</a>.</p>
-<p><b>Год рождения.</b> При первом запуске Игра спрашивает год рождения. Он хранится только на устройстве и никуда
-не передаётся. Если вам меньше 16 лет, Игра запрашивает у Google рекламу без подбора под вас, помечает запросы
+<p><b>Год рождения.</b> При первом запуске Игра спрашивает год рождения. Он хранится на устройстве и, если вы вошли
+в Google Play Игры, в копии сохранения в вашем аккаунте Play Игр (раздел 5а). Ни нам, ни рекламе, ни аналитике он не
+передаётся. Если вам меньше 16 лет (или по году рождения вам может быть меньше 16), Игра запрашивает у Google рекламу без подбора под вас, помечает запросы
 как запросы пользователя младше возраста согласия и ограничивает рекламу подходящей по возрасту. Окно согласия
 в этом случае не показывается, аналитика не собирается.</p>
 <p><b>Согласие.</b> Если вам 16 лет или больше и вы живёте там, где требуется согласие (например, ЕС/ЕЭЗ
@@ -344,10 +365,12 @@ Google AdMob. Чтобы показывать и учитывать реклам
 <h2>7. Аналитика (GameAnalytics)</h2>
 <p>Для игроков от 16 лет (там, где требуется согласие, — только с ним) Игра использует <b>GameAnalytics</b>,
 чтобы знать, сколько игроков возвращается и как далеко они проходят. Отправляются: случайный идентификатор
-GameAnalytics и Android App Set ID (не рекламный идентификатор), начало и конец игровых сессий, несколько вех
-прогресса (например, «обучение пройдено», «открыта новая зона», «пройден уровень «три в ряд»»), была ли предложена,
-начата или досмотрена реклама за награду, и сведения об устройстве (модель, версия Android, версия Игры, тип связи). По IP-адресу GameAnalytics может определить страну.
-Имена, почта, прогресс и рекламный идентификатор не отправляются. GameAnalytics обрабатывает эти данные по нашему
+GameAnalytics и Android App Set ID (не рекламный идентификатор), начало, конец и длина игровых сессий, какой по
+счёту день с первого запуска, вехи прогресса (шаги обучения, открыта новая зона, амбар или озеро, число полей,
+выполненные цели дня, открыт или пройден уровень «три в ряд»), технические события (часть Игры не загрузилась вовремя,
+файл сохранения изменён вне Игры), была ли предложена, начата или досмотрена реклама за награду и в каком месте Игры,
+и сведения об устройстве (модель, версия Android, версия Игры, тип связи). По IP-адресу GameAnalytics может определить страну.
+Имена, почта, файл сохранения и рекламный идентификатор не отправляются. GameAnalytics обрабатывает эти данные по нашему
 поручению; см. <a href="https://gameanalytics.com/privacy">политику конфиденциальности GameAnalytics</a>.
 Выключить аналитику можно, отозвав согласие в настройках Игры (кнопка «Конфиденциальность», где она есть),
 или написав нам.</p>
@@ -375,8 +398,8 @@ Sentry может получить IP-адрес; игра настроена т
 по запросу: напишите нам, и мы передадим запрос. Рекламный идентификатор можно сбросить в настройках телефона.</p>
 
 <h2 id="udalenie">11. Как удалить свои данные</h2>
-<p>1. <b>Данные на устройстве</b> (прогресс, настройки, год рождения): кнопка «Сбросить прогресс» в настройках Игры
-или удаление Игры. Удаляются сразу.<br>
+<p>1. <b>Данные на устройстве</b> (прогресс, имя героини, год рождения): кнопка «Сбросить прогресс» в настройках Игры
+сразу удаляет сохранение и все его копии; удаление Игры стирает и настройки.<br>
 2. <b>Аналитика и реклама</b>: отзовите согласие в настройках Игры, кнопка «Конфиденциальность» (где она есть), —
 после этого новые данные не отправляются. Рекламный идентификатор можно сбросить или удалить в настройках телефона
 (Google → Реклама).<br>
